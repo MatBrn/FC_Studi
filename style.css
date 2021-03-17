@@ -1,0 +1,72 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site_banner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #040c3d;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner_logo{
+    margin: 10px;
+
+
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_title{
+    flex-direction: row;
+    align-items: flex-end;
+}
+.title{
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f3ab44 ;
+  
+}
+
+.banner_menu{
+    
+
+}
+.list_menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    text-align: center;
+}
+
+.accueil{
+    order: 0;
+}
+
+.evenement{
+    order: 1;
+}
+
+.a_propos{
+    order: 2;
+}
+
+.boutique{
+    order: 3;
+
+}
