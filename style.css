@@ -1,57 +1,41 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 .site_banner{
     display: flex;
-    flex-wrap: wrap;
     background-color: #040c3d;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
 }
 
 .banner_logo{
     margin: 10px;
-
-
 }
 
 .logo{
     height: 50px;
     width: 100px;
-
-}
-.banner{
-    display: flex;
-    flex-direction: column;
 }
 
-.banner_title{
-    flex-direction: row;
-    align-items: flex-end;
-}
+
 .title{
     font-weight: 700;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #f3ab44 ;
-  
+    color: #ffffff ;
 }
 
-.banner_menu{
-    
-
-}
 .list_menu{
-    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    align-content: flex-end;
+    align-content: flex-end;
+    list-style: none;
+    background-color: #040c3d;
 }
 
 .menu{
     text-align: center;
+    font-family: 'Cabin', sans-serif;
 }
 
 .accueil{
@@ -63,10 +47,54 @@ body{
 }
 
 .a_propos{
-    order: 2;
+    order: 3;
 }
 
 .boutique{
-    order: 3;
+    order: 2;
+}
+
+.main_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_content{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_section_content{
+    
+}
+
+.second_section_content{
 
 }
+
+.aside_content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3{
+    background: top #cce8f8 ;
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.shop_content , .match_content , .access_plan {
+    text-align: center;
+    border-radius: 20px;
+    border-color: #040c3d;
+    border-bottom-left-radius: round;
+    border-style: solid;
+    margin: 10px;
+    box-shadow: -36px 36px 9px -19px rgba(8,8,8,0.85);
+}
+
+
+
