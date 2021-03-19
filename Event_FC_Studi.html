@@ -4,23 +4,38 @@
         <meta charset="utf-8">
         <title> Football Club Studi </title>
         <meta name="description" content="Evénement de l'association du Football Club Studi">
+        <!--Import Google Font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap" rel="stylesheet"> 
+        <!--Import Bootstrap - CSS framework -->
         <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
         <header>
-            <a href="FC_Studi.html">
-                <img src="logo_studi.png" alt="logo">
-            </a>
-            <h1> Football Club STUDI </h1>
-                <nav>
-                    <ul>
-                        <li> <a href="./FC_Studi.html"> Acceuil </a></li>
-                        <li> <a href="./Event_FC_Studi.html"> Evénement </a></li>
-                        <li> <a href="./A_Propos.html"> A propos </a> </li>
-                        <li> <a href="./Boutique_FCStudi.html"> Boutique </a> </li>
-                    </ul>
-                </nav>
+            <div class="site_banner">
+                <div class="banner_logo">
+                    <a href="FC_Studi.html">
+                        <img class="logo" src="logo_studi.png" alt="logo">
+                    </a>
+                </div>
+                <div class="banner_title">
+                    <h1 class="title" > FOOTBALL CLUB STUDI </h1>
+                </div>
+                <div class="banner_logo">
+                    <a href="FC_Studi.html">
+                        <img class="logo" src="logo_studi.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <nav>
+                <ul class="list_menu">
+                    <li class="menu acceuil"> <a href="./FC_Studi.html"> ACCEUIL </a></li>
+                    <li class="menu evenement">  <a href="./Event_FC_Studi.html"> EVENEMENT </a></li>
+                    <li class="menu a_propos">  <a href="./A_Propos.html"> A PROPOS </a> </li>
+                    <li class="menu boutique"> <a href="./Boutique_FCStudi.html"> BOUTIQUE </a> </li>
+                </ul>
+            </nav>   
         </header>
         <main>
             <section>
@@ -42,35 +57,61 @@
             <section>
 
             </section>
-            <aside>
-                <article>  
-                    <div>
-                        <h3> Boutique en ligne</h3>
-                        <p> Maillot Officiel FC Studi </br> Saison 2020/21 </p>
-                        <button> Acheter le maillot </button>
-                        <img src="maillot-studi-2020 21.jpg" alt="maillot" width="180" height="200">
-                    </div>   
-                </article>
-            </aside>
-            <aside>
-                <article>
-                    <div>
-                        <h3> Match Officiel Ligue 1 </h3>
-                        <p> FC Studi VS AS Galileo </br> Coup d'envoi le dimanche 28/03/21 à 21h </br> En direct sur Canal+ </p>
-                        <img src="logo_Canal+.svg.png" width="100" height="75">
-                        <img src="logo_studi.png" width="100" height="75">
-                        <img src="logo_galileo.jpg" width="100" height="75">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.2505752133543!2d3.809874015496735!3d43.62214337912239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ac3a9829522b%3A0x99e056199e3d006b!2sStade%20de%20la%20Mosson!5e0!3m2!1sfr!2sfr!4v1615988215618!5m2!1sfr!2sfr" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </article>
-            </aside>
+            <div class="aside_content">
+                <aside>
+                    <article>  
+                        <div class="shop_content">
+                            <h3> BOUTIQUE </h3>
+                            <p> Maillot Officiel FC Studi </br> Saison 2020/21 </p>
+                            <button> <a href="Boutique_FCStudi.html"> Acheter le maillot </a></button>
+                            <img src="maillot-studi-2020 21.jpg" alt="maillot" width="180" height="200"> 
+                        </div>    
+                    </article>
+                    <article>
+                        <div class="match_content">
+                            <h3> MATCH </h3>
+                            <p> FC Studi VS AS Galileo </br>
+                                Coup d'envoi </br>
+                                Dimanche 28/03/21 </br> 
+                                à 21h00 </br> 
+                                En direct sur </p> 
+                                <img class="logo_Canal" src="logo_Canal+.svg.png" >
+                            <div class="logo_match">
+                                <img class="logo_Studi" src="logo_studi.png" >
+                                <p> VS </p>
+                                <img class="logo_Galileo" src="logo_galileo.jpg" >
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="access_plan">                       
+                            <h3> PLAN DU STADE </h3>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.2505752133543!2d3.809874015496735!3d43.62214337912239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ac3a9829522b%3A0x99e056199e3d006b!2sStade%20de%20la%20Mosson!5e0!3m2!1sfr!2sfr!4v1615988215618!5m2!1sfr!2sfr" 
+                                        width="300" height="400" style="border: 0; padding : 5px;" loading="lazy"></iframe>
+                        </div>
+                    </article>
+                    <article>  
+                        <div class="contact_content">
+                            <h3> CONTACT </h3>
+                            <p> </br> STUDI </br></br>
+                                Adresse :  635 Avenue </br>
+                                Robert Malthus </br>
+                                34470 Pérols</br></br>
+                                Téléphone : <a href="tel:+330174888555" > 01 74 88 85 55 </a> </br></br>
+                                Site web : <a href="https://www.studi.fr" target="_blank"> www.studi.fr </a></br></br>
+                            </p>
+                        </div>    
+                    </article>
+                </aside>
         </main>
         <footer>
-            
+            <div>
+                <p>Merci pour votre visite </br>
+                A bientôt ! </br></br>
+
+                Created by M.B
+                </p>
+            </div>
         </footer>
-        
-
-
-        
      </body>
 </html>
