@@ -18,7 +18,6 @@ body{
     width: 100px;
 }
 
-
 .title{
     font-weight: 700;
     color: #ffffff ;
@@ -34,8 +33,8 @@ body{
 }
 
 .menu{
-    text-align: center;
-    font-family: 'Cabin', sans-serif;
+    justify-items: center;
+    justify-content: center;
 }
 
 .accueil{
@@ -56,7 +55,6 @@ body{
 
 .main_content{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .section_content{
@@ -66,7 +64,46 @@ body{
 }
 
 .first_section_content{
-    
+    display: flex;
+    flex-flow: row wrap ;
+}
+
+.box{
+    display: flex;
+    width: 480px;
+    height: 110px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 60px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.b1999{
+    background-color: #dceef8;
+   
+}
+.b2002{
+    background-color: #b2ddf5 ;
+}
+
+.b2008{
+    background-color: #9dd5f4 ;
+}
+
+.b2016{
+    background-color: #80caf3 ;
+}
+
+.b2019{
+    background-color: #65c0f3 ; 
+}
+
+.soccer_field{
+    width: 420px ;
+    height: 595px ;
+    margin-left: 60px;
 }
 
 .second_section_content{
@@ -80,10 +117,20 @@ body{
     justify-content: space-between;
 }
 
+h2{
+    text-align: center;
+}
+
 h3{
     background: top #cce8f8 ;
     border-start-start-radius: 20px;
     border-top-right-radius: 20px;
+    
+}
+
+h4{
+    font-size: 3vh;
+    text-decoration: underline;
 }
 
 .shop_content , .match_content , .access_plan {
@@ -96,5 +143,31 @@ h3{
     box-shadow: -36px 36px 9px -19px rgba(8,8,8,0.85);
 }
 
+.logo_Canal{
+    width : 80px;
+    height : 20px;
+    margin-top: -30px;
+}
 
+.logo_match{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+}
+
+.logo_Studi {
+    margin-right: -30px; 
+    width : 80px ;
+    height: 50px ; 
+    margin-bottom: 5px;  
+}
+
+.logo_Galileo{
+    margin-left: -30px;
+    width : 80px ;
+    height: 50px ;
+    margin-bottom: 5px;
+} 
 
