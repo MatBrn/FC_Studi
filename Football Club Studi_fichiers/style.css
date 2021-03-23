@@ -54,6 +54,98 @@ body{
     order: 2;
 }
 
+
+h2{
+    text-align: center;
+}
+
+h3{
+    background: top #cce8f8 ;
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h4{
+    font-size: 3vh;
+    text-decoration: underline;
+}
+/* Stylesheet for the home page */
+
+.main_content{
+    display: flex;
+}
+
+.home_section_content{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_section_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    width: 800px;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -5px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.b1999{
+    background-color: #dceef8;
+   
+}
+.b2002{
+    background-color: #b2ddf5 ;
+}
+
+.b2008{
+    background-color: #9dd5f4 ;
+}
+
+.b2016{
+    background-color: #80caf3 ;
+}
+
+.b2019{
+    background-color: #65c0f3 ; 
+}
+
+.soccer_field{
+    margin: 25px;
+}
+
+.second_article_content{
+    margin-top: 20px;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px ;
+}
+.content_president_words{
+    display: flex;
+    align-items:baseline;
+}
+
+.president_picture{
+    padding: 5px; 
+    
+}
+
+.event__home_article{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
 .aside_content{
     flex: 1;
     display: flex;
@@ -71,7 +163,6 @@ body{
     border-style: solid;
     margin: 10px;
     box-shadow: -36px 36px 9px -19px rgba(8,8,8,0.85);
-    width: 292px;
     
 }
 
@@ -114,120 +205,24 @@ footer{
     text-align: center;
 }
 
-
-
-h2{
-    text-align: center;
-}
-
-h3{
-    background: top #cce8f8 ;
-    border-start-start-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-h4{
-    font-size: 3vh;
-    text-decoration: underline;
-}
-
-/* Stylesheet for the home page */
-
-.main_content{
-    display: flex;
-}
-
-.home_section_content{
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.first_section_content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.story_article_content{
-    margin-top: 20px;
-    background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.box{
-    display: flex;
-    width: 800px;
-    height: 110px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-top: -5px;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-
-.b1999{
-    background-color: #dceef8;
-   
-}
-.b2002{
-    background-color: #b2ddf5 ;
-}
-
-.b2008{
-    background-color: #9dd5f4 ;
-}
-
-.b2016{
-    background-color: #80caf3 ;
-}
-
-.b2019{
-    background-color: #65c0f3 ; 
-}
-.event_home_section{
-    display: flex;
-    margin-top: 20px;
-    width: 800px;
-    flex-direction: column;
-    background-color: white;
-}
-    
-.content_event_home_article{
-    text-align: center;
-}
-
-.text_event_home_article{
-    padding: 5%;
-}
-
-.soccer_field{
-    margin: 10px;
-}
-
-
-.last_section_content{
-    width: 800px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5px ;
-    background-color: #c4e4f7;
-}
-.president_article_content{
-    display: flex;
-    align-items:baseline;
-    text-align: justify;
-}
-
-.president_picture{
-    padding: 5px;    
-}
-
 /* Stylesheet for the event page */
 
+.event_section_content{
+    
+}
+
+.event_article_content{
+
+
+
+}
+
+.forms_article_content{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+
+}
 
 
 /* Stylesheet for the others pages */
