@@ -7,13 +7,14 @@
         <!--Import Google Font-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap" rel="stylesheet"> 
-        <!--Import Bootstrap - Principally  for the event page Event_FC_Studi-->
+        <!--Import Bootstrap -->
         <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" />
-        <!-- Principally for the home page FC_Studi -->
+        <!--Import CSS -->
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
         <header>
+            <!-- Banière de présentation -->
             <div class="site_banner">
                 <div class="banner_logo">
                     <a href="FC_Studi.html">
@@ -29,27 +30,28 @@
                     </a>
                 </div>
             </div>
+            <!-- Menu de navigation -->
             <nav>
                 <ul class="list_menu">
-                    <li class="menu accueil"> <a href="./FC_Studi.html"> ACCEUIL </a></li>
+                    <li class="menu accueil"> <a href="./FC_Studi.html"> ACCUEIL </a></li>
                     <li class="menu evenement">  <a href="./Event_FC_Studi.html"> EVENEMENT </a></li>
                     <li class="menu a_propos">  <a href="./A_Propos.html"> A PROPOS </a> </li>
                     <li class="menu boutique"> <a href="./Boutique_FCStudi.html"> BOUTIQUE </a> </li>
                 </ul>
             </nav>   
         </header>
-        <main class="d-flex">
-            <div class="d-flex col-9 flex-column align-items-center">
+        <main class="main_content">
+            <div class="section_content">
                 <section>
                     <article>
-                        <div class="d-flex flex-column align-items-center text-center bg-white text-dark mt-2 ">
+                        <div class="event_article">
                         <h2> - Evénement : Journée de recrutement le 13/03 - </h2>
                             <div>
                             <p> Accélérez votre carrière, décrochez le club de vos rêves. </br>
                                 Développez vos compétences footballistique ! </br>
                                 Apprenez les tactiques et les techniques dont vous avez besoin aujourd’hui et demain. </p>
                             <p> Cette vidéo de présentation vous permettra de mieux connaître notre association. </p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yCfnx7ICmJc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                            <iframe class="event_video" width="560" height="315" src="https://www.youtube.com/embed/yCfnx7ICmJc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                             <p class="bg-info text-white d-flex align-items-center justify-content-center mt-2 mb-n2"> </br> Pour participer à cette journée merci de remplir le formulaire ci-dessous.</p> </br>
                             </div>
                         </div>
@@ -107,7 +109,8 @@
                     </article>
                 </section>
             </div>
-            <div class="aside_content col-3">
+            <!-- Banière d'informations situé à droite de l'écran sur un desktop et en bas sur un mobile" -->
+            <div class="aside_content">
                 <aside>
                     <article>  
                         <div class="shop_content ">
