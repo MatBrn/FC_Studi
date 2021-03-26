@@ -1,0 +1,368 @@
+/* Stylesheet for all the web site */
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: #faeee2;
+}
+
+.site_banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner_logo{
+    margin: 10px;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+}
+
+.title{
+    font-weight: 700;
+    color: #040c3d;
+    text-align: center;
+}
+
+.list_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: #040c3d;
+    height: 40px;
+}
+
+.menu{
+    justify-content: space-around;
+}
+
+.accueil{
+    order: 0;
+}
+
+.evenement{
+    order: 1;
+}
+
+.a_propos{
+    order: 3;
+}
+
+.boutique{
+    order: 2;
+}
+
+.main_content{
+    display: flex;
+}
+
+.section_content{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #040c3d ;
+    color: white ;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    background: top #cce8f8 ;
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h4{
+    font-size: 3vh;
+    text-decoration: underline;
+}
+/* Stylesheet for aside bar */
+
+.aside_content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shop_content , .match_content , .access_plan , .contact_content {
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #040c3d;
+    background-color: #ffe3c8;
+    border-bottom-left-radius: round;
+    border-style: solid;
+    margin: 10px;
+    box-shadow: -36px 36px 9px -19px rgba(8,8,8,0.85);
+    width: 292px;
+}
+
+.buy_jersey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_Canal{
+    width : 80px;
+    height : 20px;
+    margin-top: -30px;
+}
+
+.logo_match{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.logo_Studi {
+    margin-right: -30px; 
+    width : 80px ;
+    height: 50px ; 
+    margin-bottom: 5px;  
+}
+
+.logo_Galileo{
+    margin-left: -30px;
+    width : 80px ;
+    height: 50px ;
+    margin-bottom: 5px;
+} 
+
+/* Stylesheet for the home page */
+
+.first_section_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story_article_content{
+    margin-top: 20px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box{
+    display: flex;
+    width: 800px;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -5px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.b1999{
+    background-color: #dceef8;
+   
+}
+.b2002{
+    background-color: #b2ddf5 ;
+}
+
+.b2008{
+    background-color: #9dd5f4 ;
+}
+
+.b2016{
+    background-color: #80caf3 ;
+}
+
+.b2019{
+    background-color: #65c0f3 ; 
+}
+.event_home_section{
+    display: flex;
+    margin-top: 20px;
+    width: 800px;
+    flex-direction: column;
+    background-color: white;
+}
+    
+.content_event_home_article{
+    text-align: center;
+}
+
+.text_event_home_article{
+    padding: 5%;
+}
+
+.soccer_field{
+    margin-bottom: 50px;
+    width : 700px ;
+    height: 400px ;
+}
+
+.last_section_content{
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px ;
+    background-color: #c4e4f7;
+}
+.president_article_content{
+    display: flex;
+    align-items:baseline;
+    text-align: justify;
+}
+
+.president_picture{
+    padding: 5px;  
+}
+
+/* Stylesheet for the event pages */
+
+.event_article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    text-decoration: black;
+    margin-top: 20px;
+}
+
+/* Stylesheet for the others pages */
+
+.website_construction{
+    width: 100%;
+    height: 100%;
+}
+
+/* Operate responsive design */
+
+@media screen and (max-width: 575px){
+    /* Stylesheet for all the web site */
+
+    body {
+        font-size: 0.7em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+    
+    h3{
+        font-size: 2em;
+    }
+    
+    h4{
+        font-size: 1em;
+    }
+
+    .main_content{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .banner_logo{
+        margin: 5px;
+    }
+    
+    .logo{
+        height: 8vw;
+        width: 15vw;
+    }
+    
+    .title{
+        font-size: 3em;   
+    }
+    
+    .list_menu{
+        height: 40px;
+        font-size: 1.3em;
+        margin-left: -20px;
+    }
+
+    .section_content{
+        width: 100vw;
+    }
+  
+    /* Stylesheet for aside bar */
+
+    .shop_content , .match_content , .access_plan , .contact_content {
+        align-items: flex-start;
+        border-radius: none;
+        border-bottom-left-radius: none;
+        border-style: none;
+        box-shadow: none;
+        width: 100vw;
+    }
+  
+    /* Stylesheet for the home page */
+
+    .event_home_section{
+        width: 100vw;
+    }
+ 
+    .box{
+        width: 100vw;
+        height: 20vw;
+    }
+
+    .soccer_field{
+        width: 90vw ;
+        height: 50vw;
+    }
+
+    /* Stylesheet for the event pages */
+
+    .event_article{
+        width: 100vw;
+        height: 425px ;
+    }
+
+    .event_video{
+        width: 90%;
+        height: 60%;
+    }
+
+    .last_section_content{
+        width: 100vw;
+        flex-direction: column;
+    }
+    
+    .president_article_content{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .mediaq_president_picture{
+        width: 75vw;
+        height: 40vw;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    
+    .main_content{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .shop_content , .match_content , .access_plan , .contact_content {
+        align-items: flex-start;
+        border-radius: none;
+        border-bottom-left-radius: none;
+        border-style: none;
+        box-shadow: none;
+        width: 100vw;
+
+}
+
