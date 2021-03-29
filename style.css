@@ -82,7 +82,7 @@ h3{
 }
 
 h4{
-    font-size: 3vh;
+    font-size: 20px;
     text-decoration: underline;
 }
 /* Stylesheet for aside bar */
@@ -186,6 +186,7 @@ h4{
 .b2019{
     background-color: #65c0f3 ; 
 }
+
 .event_home_section{
     display: flex;
     margin-top: 20px;
@@ -363,6 +364,6 @@ h4{
         border-style: none;
         box-shadow: none;
         width: 100vw;
+    }
 
 }
-
